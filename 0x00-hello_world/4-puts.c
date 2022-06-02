@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* A simple code that prints a string to standard output*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 	int main(void)
 	{
