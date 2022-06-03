@@ -15,7 +15,7 @@ int main(void)
 
 	while (n < '9')
 	{
-		for (m = '0'; m <= '9'; m++)
+		for (m = '1'; m <= '9'; m++)
 		{
 			if (m != n)
 			{
