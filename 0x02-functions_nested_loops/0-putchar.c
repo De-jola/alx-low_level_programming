@@ -2,6 +2,9 @@
 #include "main.h"
 /**
  * main - Defining a function that prints "-putchar" to the terminal
+ * _putchar - A function that writes the character c to stdout
+ *
+ * @c: The character to be printed
  *
  * Return: Always 0 (Success)
  */
