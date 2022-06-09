@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * fizz_buzz - interview question
+ * main - interview question
+ * Return: Always 0
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -19,4 +20,5 @@ void fizz_buzz(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+	return (0);
 }
