@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prints_square - prints a square based on the number inputted
+ * print_square - prints a square based on the number inputted
  * @size: the size of the square in digits
  *
  */
@@ -15,7 +15,7 @@ void print_square(int size)
 		_putchar('\n');
 	for (i = 0; i < size; i++)
 	{
-		for(j = 0; j < size; j++)
+		for (j = 0; j < size; j++)
 		{
 			_putchar(c);
 		}
