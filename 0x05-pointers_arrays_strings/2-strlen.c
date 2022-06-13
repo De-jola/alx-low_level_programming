@@ -11,10 +11,7 @@ int _strlen(char *s)
 
 	for (i = 0; i <= *(s + i); i++)
 	{
-		if (*s == '\"')
-			continue;
-		else
-			sum += 1;
+		sum += 1;
 	}
 	return (sum);
 }
