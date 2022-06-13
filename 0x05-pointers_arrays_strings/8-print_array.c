@@ -27,6 +27,10 @@ void print_array(int *a, int n)
 			i++;
 		}
 		n = n - 1;
+		printf("%d\n", a[n]);
 	}
-	printf("%d\n", a[n]);
+	else
+	{
+		printf("\n");
+	}
 }
