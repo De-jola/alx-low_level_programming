@@ -11,7 +11,10 @@ int _strlen(char *s)
 
 	for (i = 0; i < *(s + i); i++)
 	{
-		sum += 1;
+		if (*s != '\0')
+		{
+			sum += 1;
+		}
 	}
 	return (sum);
 }
