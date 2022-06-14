@@ -20,12 +20,13 @@ void puts_half(char *str)
 	{
 		while (j < len)
 		{
+			j = j + 1;
 			_putchar(*(str + j));
-			j++;
 		}
 	}
 	else
 	{
+		++j;
 		n = (len) / 2;
 		i = 0;
 		while (j < n)
