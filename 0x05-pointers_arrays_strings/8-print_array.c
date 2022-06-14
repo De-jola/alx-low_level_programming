@@ -29,7 +29,7 @@ void print_array(int *a, int n)
 		n = n - 1;
 		printf("%d\n", a[n]);
 	}
-	else if (len < n)
+	else if (n == 0 || len < n)
 	{
 		printf("\n");
 	}
