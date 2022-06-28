@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * free_grind - frees the memory
+ * free_grid - frees the memory
  * @grid: The array to be removed from memory
  * @height: Height of the array
  */
