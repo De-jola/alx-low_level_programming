@@ -18,7 +18,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	i = j = k = 0;
 	if (n >= sizeof(s2))
-		i = n;
+		i = sizeof(s2);
 	else
 	{
 		while (i < n)
