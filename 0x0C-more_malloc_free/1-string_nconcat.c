@@ -17,8 +17,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 	i = j = k = 0;
-	while (i < n)
-		i++;
+	if (n == sizeof(s2))
+		i = n;
+	else
+	{
+		while (i < n)
+			i++;
+	}
 	ptr = malloc(sizeof(s1) + i);
 	if (ptr == NULL)
 		return (NULL);
