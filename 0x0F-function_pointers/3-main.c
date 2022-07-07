@@ -7,11 +7,10 @@
  * @argv: argument array
  * Return: Always 0
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num1, num2;
 	char *operator;
-	int (*f)(int, int);
 
 	if (argc != 4)
 	{
