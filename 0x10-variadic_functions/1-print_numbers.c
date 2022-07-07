@@ -3,7 +3,7 @@
 #include <stdarg.h>
 /**
  * print_numbers - prints out numbers given
- * @seperator: String to be seperated between between numbers
+ * @separator: String to be seperated between between numbers
  * @n: number of arguments
  * Return: Nothing
  */
